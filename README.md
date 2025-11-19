@@ -1,6 +1,7 @@
 # Threat Hunt Capture the Flag — gab-intern-vm
 
-**Author:** Monica Francis — First-time Capture the Flag threat hunter demonstrating clear methodology, KQL proficiency, and timeline reconstruction.
+**Author:** Monica Francis — First-time Capture the Flag threat hunt
+**Timeframe Analyzed:** 2025-10-01 - 2025-10-15 UTC
 
 ## Quick Flags Reference
 
