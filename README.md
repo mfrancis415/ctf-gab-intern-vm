@@ -9,7 +9,7 @@
 |------|-------------|-----------------|
 | 1 | Initial Execution Detection | `-ExecutionPolicy` |
 | 2 | Defense Disabling | `DefenderTamperArtifact.lnk` |
-| 3 | Quick Data Probe | `"powershell.exe" -NoProfile -Sta -Command "try { Get-Clipboard | Out-Null } catch { }"` |
+| 3 | Quick Data Probe | `"powershell.exe"` -NoProfile -Sta -Command "try { Get-Clipboard | Out-Null } catch { }" |
 | 4 | Host Context Recon | `2025-10-09T12:51:44.3425653Z` |
 | 5 | Storage Surface Mapping | `"cmd.exe" /c wmic logicaldisk get name,freespace,size` |
 | 6 | Connectivity & Name Resolution Check | `RuntimeBroker.exe` |
@@ -28,8 +28,8 @@
 ## Scenario
 A routine support request should have ended with a reset and reassurance. Instead, the so-called “help” left behind a trail of anomalies that don’t add up.
 
-What was framed as troubleshooting looked more like an audit of the system itself — probing, cataloging, leaving subtle traces in its wake. Actions chained together in suspicious sequence: first gaining a foothold, then expanding reach, then preparing to linger long after the session ended.
-And just when the activity should have raised questions, a neat explanation appeared — a story planted in plain sight, designed to justify the very behavior that demanded scrutiny.
+What was framed as troubleshooting looked more like an audit of the system itself probing, cataloging, leaving subtle traces in its wake. Actions chained together in suspicious sequence: first gaining a foothold, then expanding reach, then preparing to linger long after the session ended.
+And just when the activity should have raised questions, a neat explanation appeared, a story planted in plain sight, designed to justify the very behavior that demanded scrutiny.
 
 **Mission:** Reconstruct the timeline, connect the scattered remnants of this "support session", and decide what was legitimate and what was staged.
 
